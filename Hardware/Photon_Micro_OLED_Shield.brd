@@ -183,15 +183,15 @@
 <dimension x1="3.81" y1="-1.27" x2="3.81" y2="34.29" x3="-7.62" y3="16.51" textsize="0.8128" textratio="15" layer="47" dtype="diameter" unit="inch"/>
 <dimension x1="6.35" y1="1.27" x2="4.699" y2="1.27" x3="5.5245" y3="-3.81" textsize="0.8128" textratio="15" layer="47" dtype="diameter" unit="inch" precision="3"/>
 <text x="3.81" y="-13.97" size="0.8128" layer="47" font="vector" ratio="15">Units in Inches</text>
-<text x="50.8" y="31.75" size="1.27" layer="21" font="vector" ratio="15" align="top-center">OLED Shield
-for the Photon</text>
+<text x="50.8" y="31.75" size="1.27" layer="21" font="vector" ratio="15" align="top-center">SparkFun Photon
+OLED Shield</text>
 <text x="51.943" y="4.191" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">SDA</text>
 <text x="58.166" y="4.191" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">MOSI</text>
 <text x="51.943" y="1.27" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">SCL</text>
 <text x="57.658" y="1.27" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">SCK</text>
 <dimension x1="3.81" y1="-1.27" x2="66.04" y2="-1.27" x3="34.925" y3="-16.51" textsize="0.8128" textratio="15" layer="47" unit="inch"/>
-<text x="50.8" y="31.75" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">OLED Shield
-for the Photon</text>
+<text x="50.8" y="31.75" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">SparkFun Photon 
+OLED Shield</text>
 </plain>
 <libraries>
 <library name="microView-temp">
@@ -2174,8 +2174,8 @@ design rules under a new name.</description>
 <element name="SJ10" library="SparkFun-Passives" package="PAD-JUMPER-3-2OF3_NC_BY_TRACE_YES_SILK_FULL_BOX" value="" x="53.848" y="1.778" rot="MR180"/>
 <element name="SJ4" library="SparkFun-Passives" package="PAD-JUMPER-3-NO_YES_SILK" value="" x="53.848" y="15.24" rot="MR0"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="17.907" y="-0.762" rot="MR0"/>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="7.239" y="9.398" rot="R90"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="7.112" y="21.209" rot="MR270"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="6.985" y="9.398" rot="R90"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="6.985" y="21.209" rot="MR270"/>
 </elements>
 <signals>
 <signal name="GND">
