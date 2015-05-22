@@ -17721,7 +17721,7 @@ Keepout</text>
 <wire x1="7.16" y1="36.54" x2="6.76" y2="36.54" width="0.127" layer="51"/>
 <wire x1="13.56" y1="36.54" x2="13.56" y2="35.84" width="0.127" layer="51"/>
 <wire x1="13.56" y1="35.84" x2="13.56" y2="31.54" width="0.127" layer="51"/>
-<wire x1="6.76" y1="31.54" x2="7.96" y2="31.54" width="0.127" layer="21"/>
+<wire x1="6.76" y1="31.54" x2="7.96" y2="31.54" width="0.127" layer="51"/>
 <wire x1="6.76" y1="31.54" x2="6.76" y2="35.84" width="0.127" layer="51"/>
 <wire x1="6.76" y1="35.84" x2="6.76" y2="36.54" width="0.127" layer="51"/>
 <wire x1="13.56" y1="35.84" x2="6.76" y2="35.84" width="0.127" layer="51"/>
@@ -17763,9 +17763,7 @@ Keepout</text>
 <text x="3.302" y="30.8102" size="0.8128" layer="51" font="vector" ratio="12" rot="R90">VIN</text>
 <wire x1="1.27" y1="0" x2="0" y2="2.54" width="0.254" layer="21"/>
 <wire x1="0" y1="2.54" x2="0" y2="35.56" width="0.254" layer="21"/>
-<wire x1="0" y1="35.56" x2="6.76" y2="35.56" width="0.254" layer="21"/>
-<wire x1="6.76" y1="35.56" x2="13.56" y2="35.56" width="0.254" layer="21"/>
-<wire x1="13.56" y1="35.56" x2="20.32" y2="35.56" width="0.254" layer="21"/>
+<wire x1="0" y1="35.56" x2="20.32" y2="35.56" width="0.254" layer="21"/>
 <wire x1="20.32" y1="35.56" x2="20.32" y2="2.54" width="0.254" layer="21"/>
 <wire x1="20.32" y1="2.54" x2="19.05" y2="0" width="0.254" layer="21"/>
 <wire x1="19.05" y1="0" x2="1.27" y2="0" width="0.254" layer="21"/>
@@ -17835,8 +17833,8 @@ Keepout</text>
 <text x="21.971" y="19.05" size="1.016" layer="21" font="vector" ratio="15" align="center">D6</text>
 <text x="21.971" y="21.59" size="1.016" layer="21" font="vector" ratio="15" align="center">D7</text>
 <text x="21.844" y="24.13" size="0.9652" layer="21" font="vector" ratio="15" align="center">GND</text>
-<text x="21.971" y="26.67" size="0.9652" layer="21" font="vector" ratio="15" align="center">VBT</text>
-<text x="21.971" y="29.21" size="0.9652" layer="21" font="vector" ratio="15" align="center">RST</text>
+<text x="21.9075" y="26.67" size="0.9652" layer="21" font="vector" ratio="15" align="center">VBT</text>
+<text x="21.9075" y="29.21" size="0.9652" layer="21" font="vector" ratio="15" align="center">RST</text>
 <wire x1="-3.81" y1="31.75" x2="1.27" y2="31.75" width="0.3048" layer="1"/>
 <wire x1="1.27" y1="29.21" x2="-3.81" y2="29.21" width="0.3048" layer="1"/>
 <wire x1="-3.81" y1="26.67" x2="1.27" y2="26.67" width="0.3048" layer="1"/>
@@ -17878,24 +17876,17 @@ Keepout</text>
 <text x="21.717" y="16.51" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">D5</text>
 <text x="21.717" y="19.05" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">D6</text>
 <text x="21.717" y="21.59" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">D7</text>
-<text x="21.717" y="24.13" size="0.9652" layer="22" font="vector" ratio="15" rot="MR0" align="center">GND</text>
-<text x="21.59" y="26.67" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center">VBAT</text>
-<text x="21.717" y="29.21" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">RST</text>
+<text x="21.5265" y="24.13" size="0.9652" layer="22" font="vector" ratio="15" rot="MR0" align="center">GND</text>
+<text x="21.463" y="26.67" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="center">VBAT</text>
+<text x="21.3995" y="29.21" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">RST</text>
 <text x="-1.397" y="3.81" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">A0</text>
 <text x="-1.3335" y="3.81" size="1.016" layer="21" font="vector" ratio="15" align="center">A0</text>
 <text x="-1.397" y="31.75" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">VIN</text>
 <text x="-1.3335" y="31.75" size="0.9652" layer="21" font="vector" ratio="15" align="center">VIN</text>
-<text x="21.971" y="31.75" size="0.9652" layer="21" font="vector" ratio="15" align="center">3V3</text>
-<text x="21.717" y="31.75" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">3V3</text>
+<text x="21.844" y="31.75" size="0.9652" layer="21" font="vector" ratio="15" align="center">3V3</text>
+<text x="21.463" y="31.75" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">3V3</text>
 <text x="21.971" y="3.81" size="1.016" layer="21" font="vector" ratio="15" align="center">D0</text>
 <text x="21.717" y="3.81" size="1.016" layer="22" font="vector" ratio="15" rot="MR0" align="center">D0</text>
-<wire x1="6.76" y1="31.54" x2="6.76" y2="35.56" width="0.127" layer="21"/>
-<wire x1="6.76" y1="31.54" x2="7.96" y2="31.54" width="0.127" layer="51"/>
-<wire x1="7.96" y1="32.94" x2="7.96" y2="31.54" width="0.127" layer="21"/>
-<wire x1="12.36" y1="32.94" x2="7.96" y2="32.94" width="0.127" layer="21"/>
-<wire x1="12.36" y1="32.94" x2="12.36" y2="31.54" width="0.127" layer="21"/>
-<wire x1="13.56" y1="31.54" x2="12.36" y2="31.54" width="0.127" layer="21"/>
-<wire x1="13.56" y1="35.56" x2="13.56" y2="31.54" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
