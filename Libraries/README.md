@@ -11,4 +11,4 @@ Update Library Instructions:
 ----------------------------
 To get the most up-to-date version of the library, you must run the following git subtree commands. 
 
-$git subtree pull -P Libraries/<COMPILER NAME> --squash <product library repo URL> master
+$git subtree pull -P Libraries/Particle --squash git@github.com:sparkfun/SparkFun_Micro_OLED_Particle_Library.git master
